@@ -1,7 +1,21 @@
 .main-image{
-    
+    background-image: url(https://cdn.fstoppers.com/styles/full/s3/media/2016/08/07/big_ben_sunset_0.jpg);
+    height: 
 }
+
 .details-title{
 font-family: 'Playfair Display';
-font-size: 36px;
+font-size: 32px;
+width: 250px;
+text-align: center;
+}
+
+.details-category{
+text-align: center;
+width: 250px;
+}
+
+.details-info{
+text-align: center;
+width: 250px;
 }
