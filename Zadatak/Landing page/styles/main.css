@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-header{
+    height: 168px;
+    line-height: 168px;
+}
+
+.header{
+    text-align: center;
+}
+
+.header-menu{
+    float: left;
+}
+
+.header-date{
+    overflow: hidden;
+}
+
+.header-button{
+    float: right;
+}
