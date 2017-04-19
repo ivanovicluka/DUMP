@@ -14,22 +14,40 @@ a {
 }
 
 .main-header{
-    height: 168px;
-    line-height: 168px;
+    height: 170px;
+    width: 100%;
+    text-align: center;
 }
 
 .header{
+    display: inline-block;
     text-align: center;
+    padding-top:85px;
 }
 
 .header-menu{
     float: left;
+    padding-left: 63px;
 }
 
-.header-date{
-    overflow: hidden;
+.date-year{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.date-year:nth-of-type(2):before{
+    content: "/";
+    margin-right: 33px;
+}
+
+.date-year:nth-of-type(2):after{
+    content: "/";
+    margin-left: 33px;
 }
 
 .header-button{
     float: right;
+    padding-right: 63px;
 }
+
+
