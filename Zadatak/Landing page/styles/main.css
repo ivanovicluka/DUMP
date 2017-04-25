@@ -13,32 +13,60 @@ a {
     color: inherit;
 }
 
-
 .main-header {
     height: 170px;
 }
 
+.main-title {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding: 115px 0;
+    background-color: white;
+}
+
+.main-content {
+    background-color: #e1e1e1;
+    height: 900px;
+}
+
 .header {
     font-size: 20px;
+    line-height: 175px;
     float: left;
     width: 33%;
+}
+
+.header-date{
     text-align: center;
-    padding-top: auto;
-    padding-bottom: auto;
+}
+
+.header-menu{
+    padding-left: 63px;                    
+}
+
+.header-button{
+    text-align: right;
+    padding-right: 63px;
 }
 
 .date-year {
     margin: 10px;
+    color: #413f3f;
 }
 
-.date-year:not(:nth-of-type(1)):before {
+.date-year:nth-of-type(2):before {
     content: '/';
     margin-right: 15px;
-    color: #4c4c4c;
 }
 
-.date-year:not(:nth-of-type(1)) {
-    color: #4c4c4c;
+.date-year:nth-of-type(2):after {
+    content: '/';
+    margin-left: 15px;
+}
+
+.date-year:nth-of-type(1) {
+    color: black;
 }
 
 .button-order {
@@ -50,18 +78,11 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
 .menu-icon {
     vertical-align:  middle;
     padding-bottom: 3px;
 }
 
-.main-title {
-    width: 100%;
-    text-align: center;
-    padding: 200px 0;
-    background-color: transparent;
-}
 
 .title-main {
     text-transform: uppercase;
@@ -76,30 +97,27 @@ a {
     opacity: 0.8;
 }
 
-.main-content {
-    background-color: #f5f5f5;
-    height: 900px;
-}
 
 .content-article {
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .article-date {
     color: #4c4c4c;
-    font-size: 0.8em;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
 .article-title {
     font-size: 25px;
-    max-width: 90%;
+    width: 600px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    margin-top:20px;
 }
 
 .article-image {
@@ -115,6 +133,8 @@ a {
 
 .article-info {
     font-size: 19px;
-    max-width: 90%;
+    width: 850px;
     margin: 0 auto;
+    margin-top: 50px;
+    line-height: 30px;
 }
